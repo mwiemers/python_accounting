@@ -1,0 +1,16 @@
+.highlight {
+    border-radius: 0.4rem;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .red {
+    background-color: lightcoral;
+  }
+
+.blue{
+    background-color: #023e8a;
+    color: white;
+}
+  

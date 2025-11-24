@@ -12,38 +12,24 @@ st.title("Accessing and opening Jupyter Notebooks")
 
 st.markdown("""
 
-### Download the Python workshop materials
+### Download the Python for Accounting workshop materials
 
 The DSL teaches Python using Jupyter Notebooks.
 
 You can download the notebooks from below.
 
-### Python Fundamentals
-
-The Python Fundamentals workshops are for beginners that have no prior experience in programming with Python and cover the following topics:
-- Numerical variables
-- String variables
-- Type casting
-- Lists
-- For loops
-- Conditionals
-- Writing functions
-- Basics of data cleaning
-- Basics of inspecting data (exploratory data analysis)
-- Data visualisation
-        
 The notebooks will be combined into a single zip file. Mac-users can simple double click on the zip file to unpack the jupyter notebooks.
 Window-users have to right-click on the zip file, select Extract All... and then click on Extract.
             
-This should create a new folder named PythonSeries which contains the different jupyter notebook files.
+This should create a new folder named python-for-accounting which contains the different jupyter notebook files.
 """)
 
 
-with open("materials/Python-Series.zip", "rb") as f:
+with open("materials/python-for-accounting.zip", "rb") as f:
     btn = st.download_button(
         label = "Download Python materials",
         data = f,
-        file_name = "Python-Series.zip",
+        file_name = "python-for-accounting.zip",
         mime = "application/zip"
         )
 

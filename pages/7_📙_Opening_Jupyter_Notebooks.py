@@ -32,12 +32,14 @@ Below are the steps you need to take to open the Python jupyter notebooks in VS 
 st.markdown(
     """
 1. Open the VS Code app.
-2. Open the PF_notebooks folder, which contains the different jupyter notebook files. Go to Files > Open Folder and the select the folder.
+2. Open the pyton-for-accounting folder, which contains the different jupyter notebook files. Go to Files > Open Folder and the select the folder.
 3. Click on the first jupyter notebook to open it.
-4. Select the kernel. The kernel is the specific Python environment to use. We set up the py312 environment with Python 3.12 in a previous step and will use this to 
-work with the jupyter notebooks.
-5. Read through the description about the workshops/scroll down to the first exercise.
-6. Type in your solution code in the code cell and run the code with the Cmd+Enter (Mac) or Ctrl+Enter (Win) keyboard shortcut.
+4. Select the kernel. The kernel is the specific Python environment to use. Select the base environment.
+5. Open the terminal. Select *'Terminal'* in the menu and select the *'New Terminal'* option.
+6. In the terminal type the following: `conda activate base`. Hit Enter.
+7. Now type `pip install yfinance`. Hit Enter.
+
+You are now all set up to start working through the Python exercises.
 """)
 
 vs_code_jupyter_notebooks_video = "screen_rec/both/vs_code_jupyter_notebooks2.mov"

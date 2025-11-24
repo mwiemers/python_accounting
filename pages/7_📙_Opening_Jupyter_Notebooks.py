@@ -42,7 +42,7 @@ st.markdown(
 You are now all set up to start working through the Python exercises.
 """)
 
-vs_code_jupyter_notebooks_video = "screen_rec/both/vs_code_jupyter_notebooks2.mov"
+vs_code_jupyter_notebooks_video = "screen_rec/both/py4acc_jupyter_vs_code.mov"
 
 play_video(vs_code_jupyter_notebooks_video)
 
